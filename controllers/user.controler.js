@@ -6,7 +6,7 @@ const utils = require("../lib/utils");
 
 exports.createUser = async (req, res) => {
   try {
-    // const firstName =req.body.firstName
+    //* const firstName =req.body.firstName
     // const lastName = req.body.lastName
     // const email = req.body.email
     // const password = req.body.password
@@ -18,7 +18,7 @@ exports.createUser = async (req, res) => {
     //         message: "pls Fill all field",
 
     //       });
-    // }
+    //* }
 
     const body = req.body;
     const { error } = userRegistrationValidation({
